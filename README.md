@@ -11,7 +11,7 @@
     The project requires [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) for running and training models.
 
 2. **Create a Virtual Environment**
-    In the project directory, create a Python virtual environment:
+    In the project directory, create a Python virtual environment (**Note**: This project uses `v3.13.7`):
 
    ```sh
    python3.13 -m venv env
@@ -32,7 +32,7 @@ sms_spam_detection_with_nlp.ipynb
    - `spam_detect_model.pkl` (Naive Bayes Model)
 
     ***Note**: All the models listed above are required because a new test data must follow the same workflow as the training process.*
-    
+   
 5. **Predict Using Saved Models (Deployment)**
 
 For prediction on a new data, use:
@@ -49,3 +49,7 @@ For prediction on a new data, use:
     After launching the application, you can input any new SMS message to detect whether it is spam or not.
 
 Thank you!
+
+#### URL for testing:
+
+https://sms-spam-detection-with-nlp.onrender.com/
